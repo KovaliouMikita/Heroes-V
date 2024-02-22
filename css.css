@@ -14,7 +14,15 @@ flex-direction: column;
 }
 
 .contener :hover {
+    outline: auto;}
+
+.contener table {
     outline: auto;
+}
+
+.img {
+    width: 60px;
+    vertical-align: middle;
 }
 .centralArea{
     width: 980px;
@@ -25,17 +33,14 @@ flex-direction: column;
     background-size: 200% ;
     
 }
-.centralTable  tr{   
-   
-    width: 40px;
-    height: 40px;
-}
+
 .mage{    
     width: 460px;
     height: 270px;
     background-image: url("Icon/back_mage.jpg");
     background-position: center;
 }
+
 
 .elf{
     width: 460px;
@@ -50,10 +55,7 @@ flex-direction: column;
     background-image: url("Icon/hum.jfif");
     background-position: center;
 }
- .img {
-    width: 60px;
-    position:relative;
-}
+
 .dwarf{
     width: 460px;
     height: 270px;
